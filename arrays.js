@@ -7,7 +7,11 @@ console.log(sweets)
 }
 
 function destructivelyAddElementToBeginningOfArray(array,string){
-return array.unshift(string)
+  var list=array
+  var add=string
+
+  list.unshift(add)
+  return list
 }
 
 destructivelyAddElementToBeginningOfArray(chocolateBars,'crunch')
