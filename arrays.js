@@ -25,4 +25,7 @@ function accessElementInArray(array,index){
   return array[index]
 }
 
-// The function should accept an array and an index and return the element at that index.
+function destructivelyRemoveElementFromBeginningOfArray(array){
+  array.shift()
+  return array
+}
