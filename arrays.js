@@ -2,15 +2,11 @@ var chocolateBars = ['snickers', 'hundred grand', 'kitkat', 'skittles']
 
 function addElementToBeginningOfArray(array,string){
   var sweets = [...array, string]
-console.log(sweets)
   return sweets
 }
 
 function destructivelyAddElementToBeginningOfArray(array,string){
-  var list=array
-  var add=string
-
-  list.unshift(add)
+  array.unshift(string)
   return list
 }
 
