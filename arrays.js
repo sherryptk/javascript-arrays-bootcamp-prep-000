@@ -15,7 +15,8 @@ destructivelyAddElementToBeginningOfArray(chocolateBars,'crunch')
 addElementToBeginningOfArray(chocolateBars, 'milky way')
 
 function destructivelyAddElementToEndOfArray(array,string){
-return array.push(string)
+  array.push(string)
+  return array
 }
 
 destructivelyAddElementToEndOfArray(chocolateBars,'crunch')
