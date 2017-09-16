@@ -10,16 +10,10 @@ function destructivelyAddElementToBeginningOfArray(array,string){
   return array
 }
 
-destructivelyAddElementToBeginningOfArray(chocolateBars,'crunch')
-
-addElementToBeginningOfArray(chocolateBars, 'milky way')
-
 function destructivelyAddElementToEndOfArray(array,string){
   array.push(string)
   return array
 }
-
-destructivelyAddElementToEndOfArray(chocolateBars,'crunch')
 
 function addElementToEndOfArray(array,string){
   var sweets = [...array, string]
@@ -27,9 +21,8 @@ function addElementToEndOfArray(array,string){
   return sweets
 }
 
-addElementToEndOfArray(chocolateBars, 'twizzler')
+function accessElementInArray(array,index){
+  return array[index]
+}
 
-
-
-// TODO: Define a function in arrays.js called accessElementInArray.
 // The function should accept an array and an index and return the element at that index.
